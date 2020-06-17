@@ -22,6 +22,7 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .single-img{
