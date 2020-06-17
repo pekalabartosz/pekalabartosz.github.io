@@ -1,0 +1,49 @@
+body{
+  background-color: #0d0d0d;
+  margin-top: 75px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text{
+  animation: transitionIn 0.5s;
+  color: white;
+}
+
+.content{
+  opacity: 0;
+  animation: transitionIn;
+  animation-duration: 1s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+  color: white;
+
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  text-align: center;
+}
+
+p{
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+@keyframes transitionIn {
+    from{
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+}
