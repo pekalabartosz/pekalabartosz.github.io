@@ -1,5 +1,5 @@
 body{
-  background-color: #0d0d0d;
+  background-color: #ececec;
   margin-top: 75px;
   font-family: 'Roboto', sans-serif;
 }
@@ -33,8 +33,20 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 40%;
+  padding: 5px;
 }
+
+.footer {
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 130px;
+  color: #ea1d25;
+}
+
+
 
 @keyframes transitionIn {
     from{
