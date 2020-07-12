@@ -19,7 +19,6 @@ body{
 
   align-items: center;
   justify-content: center;
-  width: 100%;
 }
 
 h1{
@@ -34,20 +33,17 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   padding: 5px;
 }
 
 .footer {
+  width: 25%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-top: 130px;
   color: #ea1d25;
-}
-
-.footer img{
-  width: 300px;
 }
 
 
@@ -62,16 +58,4 @@ img {
       opacity: 1;
       transform: translateY(0px);
     }
-}
-
-@media only screen and (max-width: 700px) {
-  img{
-    width: 100%;
-  }
-}
-
-@media only screen and (max-width: 1000px) and (min-width: 700px) {
-  img{
-    width: 70%;
-  }
 }
